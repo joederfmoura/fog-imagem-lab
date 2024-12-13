@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=pt-BR&Locale=pt-BR&Keyboard=00000416&GeoLocation=32&ProcessorArchitecture=amd64&ComputerNameMode=Random&CompactOsMode=Default&TimeZoneMode=Explicit&TimeZone=Central+Brazilian+Standard+Time&PartitionMode=Interactive&WindowsEditionMode=Unattended&WindowsEdition=pro&UserAccountMode=Unattended&AccountName0=UFMT&AccountPassword0=&AccountGroup0=Administrators&AccountName1=&AccountName2=&AccountName3=&AccountName4=&AutoLogonMode=Own&ObscurePasswords=true&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=Hidden&TaskbarSearch=Box&DisableWidgets=true&LeftTaskbar=true&DeleteTaskbarIcons=true&HideTaskViewButton=true&ShowAllTrayIcons=true&LaunchToThisPC=true&DisableBingResults=true&DisableWindowsUpdate=true&DisableSac=true&DisableSystemRestore=true&AllowPowerShellScripts=true&DisableLastAccess=true&DisableAppSuggestions=true&HideEdgeFre=true&WifiMode=Skip&ExpressSettings=DisableAll&KeysMode=Skip&ColorMode=Default&WallpaperMode=Script&WallpaperScript=%24imagePath+%3D+%27C%3A%5CProgramData%5CInitConf%5Cimagens%5Cwallpaper_telafundo.jpg%27%0D%0Areturn+%5BSystem.IO.File%5D%3A%3AReadAllBytes%28%24imagePath%29&StartTilesMode=Default&StartPinsMode=Custom&StartPinsJson=%7B%0D%0A++%22pinnedList%22%3A%5B%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25APPDATA%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CWinRAR%5C%5CWinRAR.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Microsoft.Windows.Photos_8wekyb3d8bbwe%21App%22%7D%2C%7B%22packagedAppId%22%3A%22Microsoft.Paint_8wekyb3d8bbwe%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Clipchamp.Clipchamp_yxz26nhyzhsrt%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Microsoft.WindowsCalculator_8wekyb3d8bbwe%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Microsoft.WindowsAlarms_8wekyb3d8bbwe%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Microsoft.WindowsNotepad_8wekyb3d8bbwe%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22packagedAppId%22%3A%22Microsoft.ScreenSketch_8wekyb3d8bbwe%21App%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25APPDATA%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CFile+Explorer.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25ALLUSERSPROFILE%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CLibreOffice%5C%5CLibreOffice+Writer.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25ALLUSERSPROFILE%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CLibreOffice%5C%5CLibreOffice+Calc.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25ALLUSERSPROFILE%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CLibreOffice%5C%5CLibreOffice+Draw.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25ALLUSERSPROFILE%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CFoxit+PDF+Reader%5C%5CFoxit+PDF+Reader.lnk%22%0D%0A++++%7D%2C%0D%0A++++%7B%0D%0A++++++%22desktopAppLink%22%3A%22%25ALLUSERSPROFILE%25%5C%5CMicrosoft%5C%5CWindows%5C%5CStart+Menu%5C%5CPrograms%5C%5CFirefox.lnk%22%0D%0A++++%7D%0D%0A++%5D%0D%0A%7D&SystemScript0=%23+Caminho+completo+da+imagem+que+ser%C3%A1+usada+para+tela+de+bloqueio%0D%0A%24imagePath+%3D+%27C%3A%5CProgramData%5CInitConf%5Cimagens%5Cwallpaper_telabloqueio.jpg%27%0D%0A%0D%0A%23+Caminho+do+registro+para+configura%C3%A7%C3%A3o+de+pol%C3%ADticas%0D%0A%24registryPath+%3D+%27HKLM%3A%5CSOFTWARE%5CPolicies%5CMicrosoft%5CWindows%5CPersonalization%27%0D%0A%0D%0A%23+Cria+o+caminho+do+registro+caso+ele+n%C3%A3o+exista%0D%0Aif+%28-not+%28Test-Path+%24registryPath%29%29+%7B%0D%0A++++New-Item+-Path+%24registryPath+-Force%0D%0A%7D%0D%0A%0D%0A%23+Define+a+imagem+personalizada+para+a+tela+de+bloqueio%0D%0ASet-ItemProperty+-Path+%24registryPath+-Name+LockScreenImage+-Value+%24imagePath%0D%0A%0D%0A%23Write-Host+%22A+tela+de+bloqueio+foi+configurada+com+sucesso%21+Caminho%3A+%24imagePath%22%0D%0A%0D%0A&SystemScriptType0=Ps1&FirstLogonScript0=%0D%0A%23+Caminho+da+nova+imagem+que+ser%C3%A1+usada%0D%0A%24newImagePath+%3D+%27C%3A%5CProgramData%5CInitConf%5Cimagens%5Cuser_profile_photo.jpg%27%0D%0A%0D%0A%23+Verifica+se+o+arquivo+existe%0D%0Aif+%28-not+%28Test-Path+%24newImagePath%29%29+%7B%0D%0A++++throw+%22A+imagem+%24newImagePath+n%C3%A3o+foi+encontrada.%22%0D%0A%7D%0D%0A%0D%0A%23+Diret%C3%B3rio+onde+as+imagens+de+perfil+do+usu%C3%A1rio+est%C3%A3o+armazenadas%0D%0A%24accountPicturesPath+%3D+%22C%3A%5CUsers%5CUFMT%5CAppData%5CRoaming%5CMicrosoft%5CWindows%5CAccountPictures%22%0D%0A%0D%0A%23+Certifique-se+de+que+o+diret%C3%B3rio+de+destino+exista%0D%0Aif+%28-not+%28Test-Path+%24accountPicturesPath%29%29+%7B%0D%0A++++New-Item+-ItemType+Directory+-Path+%24accountPicturesPath+-Force%0D%0A%7D%0D%0A%0D%0A%23+Copiar+diretamente+a+imagem+para+o+formato+reconhecido+pelo+Windows+11%0D%0A%24newAccountPicturePath+%3D+Join-Path+%24accountPicturesPath+%22image1.accountpicture-ms%22%0D%0A%0D%0A%23+Converte+a+imagem+para+o+formato+necess%C3%A1rio+%28se+necess%C3%A1rio%2C+use+ferramentas+externas+para+convers%C3%A3o%29%0D%0ACopy-Item+-Path+%24newImagePath+-Destination+%24newAccountPicturePath+-Force%0D%0A&FirstLogonScriptType0=Ps1&WdacMode=Skip-->
+	<settings pass="offlineServicing"></settings>
+	<settings pass="windowsPE">
+		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<SetupUILanguage>
+				<UILanguage>pt-BR</UILanguage>
+			</SetupUILanguage>
+			<InputLocale>0416:00000416</InputLocale>
+			<SystemLocale>pt-BR</SystemLocale>
+			<UILanguage>pt-BR</UILanguage>
+			<UserLocale>pt-BR</UserLocale>
+		</component>
+		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UserData>
+				<ProductKey>
+					<Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T</Key>
+				</ProductKey>
+				<AcceptEula>true</AcceptEula>
+			</UserData>
+			<UseConfigurationSet>false</UseConfigurationSet>
+		</component>
+	</settings>
+	<settings pass="generalize"></settings>
+	<settings pass="specialize">
+		<component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<RunSynchronous>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Path>powershell.exe -NoProfile -Command "$xml = [xml]::new(); $xml.Load('C:\Windows\Panther\unattend.xml'); $sb = [scriptblock]::Create( $xml.unattend.Extensions.ExtractScript ); Invoke-Command -ScriptBlock $sb -ArgumentList $xml;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>2</Order>
+					<Path>powershell.exe -NoProfile -Command "Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\Specialize.ps1' -Raw | Invoke-Expression;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>3</Order>
+					<Path>reg.exe load "HKU\DefaultUser" "C:\Users\Default\NTUSER.DAT"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>4</Order>
+					<Path>powershell.exe -NoProfile -Command "Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\DefaultUser.ps1' -Raw | Invoke-Expression;"</Path>
+				</RunSynchronousCommand>
+				<RunSynchronousCommand wcm:action="add">
+					<Order>5</Order>
+					<Path>reg.exe unload "HKU\DefaultUser"</Path>
+				</RunSynchronousCommand>
+			</RunSynchronous>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<TimeZone>Central Brazilian Standard Time</TimeZone>
+		</component>
+	</settings>
+	<settings pass="auditSystem"></settings>
+	<settings pass="auditUser"></settings>
+	<settings pass="oobeSystem">
+		<component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<InputLocale>0416:00000416</InputLocale>
+			<SystemLocale>pt-BR</SystemLocale>
+			<UILanguage>pt-BR</UILanguage>
+			<UserLocale>pt-BR</UserLocale>
+		</component>
+		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+			<UserAccounts>
+				<LocalAccounts>
+					<LocalAccount wcm:action="add">
+						<Name>UFMT</Name>
+						<Group>Administrators</Group>
+						<Password>
+							<Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+							<PlainText>false</PlainText>
+						</Password>
+					</LocalAccount>
+				</LocalAccounts>
+			</UserAccounts>
+			<AutoLogon>
+				<Username>UFMT</Username>
+				<Enabled>true</Enabled>
+				<LogonCount>1</LogonCount>
+				<Password>
+					<Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+					<PlainText>false</PlainText>
+				</Password>
+			</AutoLogon>
+			<OOBE>
+				<ProtectYourPC>3</ProtectYourPC>
+				<HideEULAPage>true</HideEULAPage>
+				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+				<HideOnlineAccountScreens>false</HideOnlineAccountScreens>
+			</OOBE>
+			<FirstLogonCommands>
+				<SynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<CommandLine>powershell.exe -NoProfile -Command "Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\FirstLogon.ps1' -Raw | Invoke-Expression;"</CommandLine>
+				</SynchronousCommand>
+			</FirstLogonCommands>
+		</component>
+	</settings>
+	<Extensions xmlns="https://schneegans.de/windows/unattend-generator/">
+		<ExtractScript>
+param(
+    [xml] $Document
+);
+
+foreach( $file in $Document.unattend.Extensions.File ) {
+    $path = [System.Environment]::ExpandEnvironmentVariables(
+        $file.GetAttribute( 'path' )
+    );
+    mkdir -Path( $path | Split-Path -Parent ) -ErrorAction 'SilentlyContinue';
+    $content = $file.InnerText.Trim();
+    if( $file.GetAttribute( 'transformation' ) -ieq 'Base64' ) {
+        [System.IO.File]::WriteAllBytes( $path, [System.Convert]::FromBase64String( $content ) );
+    } else {
+        $encoding = switch( [System.IO.Path]::GetExtension( $path ) ) {
+            { $_ -in '.ps1', '.xml' } { [System.Text.Encoding]::UTF8; }
+            { $_ -in '.reg', '.vbs', '.js' } { [System.Text.UnicodeEncoding]::new( $false, $true ); }
+            default { [System.Text.Encoding]::Default; }
+        };
+        [System.IO.File]::WriteAllBytes( $path, ( $encoding.GetPreamble() + $encoding.GetBytes( $content ) ) );
+    }
+}
+		</ExtractScript>
+		<File path="C:\Windows\Setup\Scripts\PauseWindowsUpdate.ps1" transformation="Text">
+$formatter = {
+	$args[0].ToString( "yyyy'-'MM'-'dd'T'HH':'mm':'ssK" );
+};
+$now = [datetime]::UtcNow;
+$start = &amp; $formatter $now;
+$end = &amp; $formatter $now.AddDays( 7 );
+
+$params = @{
+	LiteralPath = 'Registry::HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings';
+	Type = 'String';
+	Force = $true;
+};
+
+Set-ItemProperty @params -Name 'PauseFeatureUpdatesStartTime' -Value $start;
+Set-ItemProperty @params -Name 'PauseFeatureUpdatesEndTime' -Value $end;
+Set-ItemProperty @params -Name 'PauseQualityUpdatesStartTime' -Value $start;
+Set-ItemProperty @params -Name 'PauseQualityUpdatesEndTime' -Value $end;
+Set-ItemProperty @params -Name 'PauseUpdatesStartTime' -Value $start;
+Set-ItemProperty @params -Name 'PauseUpdatesExpiryTime' -Value $end;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\PauseWindowsUpdate.xml" transformation="Text">
+&lt;Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;
+	&lt;Triggers&gt;
+		&lt;BootTrigger&gt;
+			&lt;Repetition&gt;
+				&lt;Interval&gt;P1D&lt;/Interval&gt;
+				&lt;StopAtDurationEnd&gt;false&lt;/StopAtDurationEnd&gt;
+			&lt;/Repetition&gt;
+			&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;/BootTrigger&gt;
+	&lt;/Triggers&gt;
+	&lt;Principals&gt;
+		&lt;Principal id="Author"&gt;
+			&lt;UserId&gt;S-1-5-19&lt;/UserId&gt;
+			&lt;RunLevel&gt;LeastPrivilege&lt;/RunLevel&gt;
+		&lt;/Principal&gt;
+	&lt;/Principals&gt;
+	&lt;Settings&gt;
+		&lt;MultipleInstancesPolicy&gt;IgnoreNew&lt;/MultipleInstancesPolicy&gt;
+		&lt;DisallowStartIfOnBatteries&gt;true&lt;/DisallowStartIfOnBatteries&gt;
+		&lt;StopIfGoingOnBatteries&gt;true&lt;/StopIfGoingOnBatteries&gt;
+		&lt;AllowHardTerminate&gt;true&lt;/AllowHardTerminate&gt;
+		&lt;StartWhenAvailable&gt;false&lt;/StartWhenAvailable&gt;
+		&lt;RunOnlyIfNetworkAvailable&gt;false&lt;/RunOnlyIfNetworkAvailable&gt;
+		&lt;IdleSettings&gt;
+			&lt;StopOnIdleEnd&gt;true&lt;/StopOnIdleEnd&gt;
+			&lt;RestartOnIdle&gt;false&lt;/RestartOnIdle&gt;
+		&lt;/IdleSettings&gt;
+		&lt;AllowStartOnDemand&gt;true&lt;/AllowStartOnDemand&gt;
+		&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;Hidden&gt;false&lt;/Hidden&gt;
+		&lt;RunOnlyIfIdle&gt;false&lt;/RunOnlyIfIdle&gt;
+		&lt;WakeToRun&gt;false&lt;/WakeToRun&gt;
+		&lt;ExecutionTimeLimit&gt;PT72H&lt;/ExecutionTimeLimit&gt;
+		&lt;Priority&gt;7&lt;/Priority&gt;
+	&lt;/Settings&gt;
+	&lt;Actions Context="Author"&gt;
+		&lt;Exec&gt;
+			&lt;Command&gt;C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe&lt;/Command&gt;
+			&lt;Arguments&gt;-Command "Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\PauseWindowsUpdate.ps1' -Raw | Invoke-Expression;"&lt;/Arguments&gt;
+		&lt;/Exec&gt;
+	&lt;/Actions&gt;
+&lt;/Task&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\ShowAllTrayIcons.ps1" transformation="Text">
+if( [System.Environment]::OSVersion.Version.Build -lt 20000 ) {
+	# Windows 10
+	Set-ItemProperty -LiteralPath 'Registry::HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer' -Name 'EnableAutoTray' -Type 'DWord' -Value 0 -Force;
+} else {
+	# Windows 11
+	Register-ScheduledTask -TaskName 'ShowAllTrayIcons' -Xml $(
+		Get-Content -LiteralPath "C:\Windows\Setup\Scripts\ShowAllTrayIcons.xml" -Raw;
+	);
+}
+		</File>
+		<File path="C:\Windows\Setup\Scripts\ShowAllTrayIcons.xml" transformation="Text">
+&lt;Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;
+	&lt;Triggers&gt;
+		&lt;LogonTrigger&gt;
+			&lt;Repetition&gt;
+				&lt;Interval&gt;PT1M&lt;/Interval&gt;
+				&lt;StopAtDurationEnd&gt;false&lt;/StopAtDurationEnd&gt;
+			&lt;/Repetition&gt;
+			&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;/LogonTrigger&gt;
+	&lt;/Triggers&gt;
+	&lt;Principals&gt;
+		&lt;Principal id="Author"&gt;
+			&lt;GroupId&gt;S-1-5-32-545&lt;/GroupId&gt;
+			&lt;RunLevel&gt;LeastPrivilege&lt;/RunLevel&gt;
+		&lt;/Principal&gt;
+	&lt;/Principals&gt;
+	&lt;Settings&gt;
+		&lt;MultipleInstancesPolicy&gt;IgnoreNew&lt;/MultipleInstancesPolicy&gt;
+		&lt;DisallowStartIfOnBatteries&gt;true&lt;/DisallowStartIfOnBatteries&gt;
+		&lt;StopIfGoingOnBatteries&gt;true&lt;/StopIfGoingOnBatteries&gt;
+		&lt;AllowHardTerminate&gt;true&lt;/AllowHardTerminate&gt;
+		&lt;StartWhenAvailable&gt;false&lt;/StartWhenAvailable&gt;
+		&lt;RunOnlyIfNetworkAvailable&gt;false&lt;/RunOnlyIfNetworkAvailable&gt;
+		&lt;IdleSettings&gt;
+			&lt;StopOnIdleEnd&gt;true&lt;/StopOnIdleEnd&gt;
+			&lt;RestartOnIdle&gt;false&lt;/RestartOnIdle&gt;
+		&lt;/IdleSettings&gt;
+		&lt;AllowStartOnDemand&gt;true&lt;/AllowStartOnDemand&gt;
+		&lt;Enabled&gt;true&lt;/Enabled&gt;
+		&lt;Hidden&gt;false&lt;/Hidden&gt;
+		&lt;RunOnlyIfIdle&gt;false&lt;/RunOnlyIfIdle&gt;
+		&lt;WakeToRun&gt;false&lt;/WakeToRun&gt;
+		&lt;ExecutionTimeLimit&gt;PT72H&lt;/ExecutionTimeLimit&gt;
+		&lt;Priority&gt;7&lt;/Priority&gt;
+	&lt;/Settings&gt;
+	&lt;Actions Context="Author"&gt;
+		&lt;Exec&gt;
+			&lt;Command&gt;C:\Windows\System32\wscript.exe&lt;/Command&gt;
+			&lt;Arguments&gt;C:\Windows\Setup\Scripts\ShowAllTrayIcons.vbs&lt;/Arguments&gt;
+		&lt;/Exec&gt;
+	&lt;/Actions&gt;
+&lt;/Task&gt;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\ShowAllTrayIcons.vbs" transformation="Text">
+HKCU = &amp;H80000001
+key = "Control Panel\NotifyIconSettings"
+Set reg = GetObject("winmgmts://./root/default:StdRegProv")
+If reg.EnumKey(HKCU, key, names) = 0 Then
+	If Not IsNull(names) Then
+		For Each name In names
+			reg.SetDWORDValue HKCU, key + "\" + name, "IsPromoted", 1
+		Next
+	End If
+End If
+		</File>
+		<File path="C:\Windows\Setup\Scripts\TaskbarIcons.ps1" transformation="Text">
+Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband' -Name '*';
+		</File>
+		<File path="C:\Windows\Setup\Scripts\SetStartPins.ps1" transformation="Text">
+$json = '{
+  "pinnedList":[
+    {
+      "desktopAppLink":"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\WinRAR\\WinRAR.lnk"
+    },
+    {
+      "packagedAppId":"Microsoft.Windows.Photos_8wekyb3d8bbwe!App"},{"packagedAppId":"Microsoft.Paint_8wekyb3d8bbwe!App"
+    },
+    {
+      "packagedAppId":"Clipchamp.Clipchamp_yxz26nhyzhsrt!App"
+    },
+    {
+      "packagedAppId":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+    },
+    {
+      "packagedAppId":"Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
+    },
+    {
+      "packagedAppId":"Microsoft.WindowsNotepad_8wekyb3d8bbwe!App"
+    },
+    {
+      "packagedAppId":"Microsoft.ScreenSketch_8wekyb3d8bbwe!App"
+    },
+    {
+      "desktopAppLink":"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\File Explorer.lnk"
+    },
+    {
+      "desktopAppLink":"%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\LibreOffice\\LibreOffice Writer.lnk"
+    },
+    {
+      "desktopAppLink":"%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\LibreOffice\\LibreOffice Calc.lnk"
+    },
+    {
+      "desktopAppLink":"%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\LibreOffice\\LibreOffice Draw.lnk"
+    },
+    {
+      "desktopAppLink":"%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Foxit PDF Reader\\Foxit PDF Reader.lnk"
+    },
+    {
+      "desktopAppLink":"%ALLUSERSPROFILE%\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox.lnk"
+    }
+  ]
+}';
+if( [System.Environment]::OSVersion.Version.Build -lt 20000 ) {
+	return;
+}
+$key = 'Registry::HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Start';
+New-Item -Path $key -ItemType 'Directory' -ErrorAction 'SilentlyContinue';
+Set-ItemProperty -LiteralPath $key -Name 'ConfigureStartPins' -Value $json -Type 'String';
+		</File>
+		<File path="C:\Windows\Setup\Scripts\GetWallpaper.ps1" transformation="Text">
+$imagePath = 'C:\ProgramData\InitConf\imagens\wallpaper_telafundo.jpg'
+return [System.IO.File]::ReadAllBytes($imagePath)
+		</File>
+		<File path="C:\Windows\Setup\Scripts\SetWallpaper.ps1" transformation="Text">
+Add-Type -TypeDefinition '
+	using System.Drawing;
+	using System.Runtime.InteropServices;
+	
+	public static class WallpaperSetter {
+		[DllImport("user32.dll")]
+		private static extern bool SetSysColors(
+			int cElements, 
+			int[] lpaElements,
+			int[] lpaRgbValues
+		);
+
+		[DllImport("user32.dll")]
+		private static extern bool SystemParametersInfo(
+			uint uiAction,
+			uint uiParam,
+			string pvParam,
+			uint fWinIni
+		);
+
+		public static void SetDesktopBackground(Color color) {
+			SystemParametersInfo(20, 0, "", 0);
+			SetSysColors(1, new int[] { 1 }, new int[] { ColorTranslator.ToWin32(color) });
+		}
+
+		public static void SetDesktopImage(string file) {
+			SystemParametersInfo(20, 0, file, 0);
+		}
+	}
+' -ReferencedAssemblies 'System.Drawing';
+
+function Set-WallpaperColor {
+	param(
+		[string]
+		$HtmlColor
+	);
+
+	$color = [System.Drawing.ColorTranslator]::FromHtml( $HtmlColor );
+	[WallpaperSetter]::SetDesktopBackground( $color );
+	Set-ItemProperty -Path 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers' -Name 'BackgroundType' -Type 'DWord' -Value 1 -Force;
+	Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Desktop' -Name 'WallPaper' -Type 'String' -Value '' -Force;
+	Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Colors' -Name 'Background' -Type 'String' -Value "$($color.R) $($color.G) $($color.B)" -Force;
+}
+
+function Set-WallpaperImage {
+	param(
+		[string]
+		$LiteralPath
+	);
+
+	[WallpaperSetter]::SetDesktopImage( $LiteralPath );
+	Set-ItemProperty -Path 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers' -Name 'BackgroundType' -Type 'DWord' -Value 0 -Force;
+	Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Desktop' -Name 'WallPaper' -Type 'String' -Value $LiteralPath -Force;
+}
+Set-WallpaperImage -LiteralPath 'C:\Windows\Setup\Scripts\Wallpaper';
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-01.ps1" transformation="Text">
+# Caminho completo da imagem que ser&#xE1; usada para tela de bloqueio
+$imagePath = 'C:\ProgramData\InitConf\imagens\wallpaper_telabloqueio.jpg'
+
+# Caminho do registro para configura&#xE7;&#xE3;o de pol&#xED;ticas
+$registryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization'
+
+# Cria o caminho do registro caso ele n&#xE3;o exista
+if (-not (Test-Path $registryPath)) {
+    New-Item -Path $registryPath -Force
+}
+
+# Define a imagem personalizada para a tela de bloqueio
+Set-ItemProperty -Path $registryPath -Name LockScreenImage -Value $imagePath
+
+#Write-Host "A tela de bloqueio foi configurada com sucesso! Caminho: $imagePath"
+		</File>
+		<File path="C:\Windows\Setup\Scripts\unattend-02.ps1" transformation="Text">
+# Caminho da nova imagem que ser&#xE1; usada
+$newImagePath = 'C:\ProgramData\InitConf\imagens\user_profile_photo.jpg'
+
+# Verifica se o arquivo existe
+if (-not (Test-Path $newImagePath)) {
+    throw "A imagem $newImagePath n&#xE3;o foi encontrada."
+}
+
+# Diret&#xF3;rio onde as imagens de perfil do usu&#xE1;rio est&#xE3;o armazenadas
+$accountPicturesPath = "C:\Users\UFMT\AppData\Roaming\Microsoft\Windows\AccountPictures"
+
+# Certifique-se de que o diret&#xF3;rio de destino exista
+if (-not (Test-Path $accountPicturesPath)) {
+    New-Item -ItemType Directory -Path $accountPicturesPath -Force
+}
+
+# Copiar diretamente a imagem para o formato reconhecido pelo Windows 11
+$newAccountPicturePath = Join-Path $accountPicturesPath "image1.accountpicture-ms"
+
+# Converte a imagem para o formato necess&#xE1;rio (se necess&#xE1;rio, use ferramentas externas para convers&#xE3;o)
+Copy-Item -Path $newImagePath -Destination $newAccountPicturePath -Force
+		</File>
+		<File path="C:\Windows\Setup\Scripts\Specialize.ps1" transformation="Text">
+$scripts = @(
+	{
+		net.exe accounts /maxpwage:UNLIMITED;
+	};
+	{
+		Register-ScheduledTask -TaskName 'PauseWindowsUpdate' -Xml $( Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\PauseWindowsUpdate.xml' -Raw );
+	};
+	{
+		reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\CI\Policy" /v VerifiedAndReputablePolicyState /t REG_DWORD /d 0 /f;
+	};
+	{
+		Set-ExecutionPolicy -Scope 'LocalMachine' -ExecutionPolicy 'RemoteSigned' -Force;
+	};
+	{
+		fsutil.exe behavior set disableLastAccess 1;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v "DisableWindowsConsumerFeatures" /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v HideFirstRunExperience /t REG_DWORD /d 1 /f;
+	};
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\SetStartPins.ps1' -Raw | Invoke-Expression;
+	};
+	{
+		try {
+		  $bytes = Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\GetWallpaper.ps1' -Raw | Invoke-Expression;
+		  [System.IO.File]::WriteAllBytes( 'C:\Windows\Setup\Scripts\Wallpaper', $bytes );
+		} catch {
+		  $_;
+		}
+	};
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\unattend-01.ps1' -Raw | Invoke-Expression;
+	};
+);
+
+&amp; {
+	[float] $complete = 0;
+	[float] $increment = 100 / $scripts.Count;
+	foreach( $script in $scripts ) {
+		Write-Progress -Activity 'Running scripts to customize your Windows installation. Do not close this window.' -PercentComplete $complete;
+		&amp; $script;
+		$complete += $increment;
+	}
+} *&gt;&amp;1 &gt;&gt; "C:\Windows\Setup\Scripts\Specialize.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\UserOnce.ps1" transformation="Text">
+$scripts = @(
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\TaskbarIcons.ps1' -Raw | Invoke-Expression;
+	};
+	{
+		Set-ItemProperty -LiteralPath 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name 'LaunchTo' -Type 'DWord' -Value 1;
+	};
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\SetWallpaper.ps1' -Raw | Invoke-Expression;
+	};
+	{
+		Get-Process -Name 'explorer' -ErrorAction 'SilentlyContinue' | Where-Object -FilterScript {
+			$_.SessionId -eq ( Get-Process -Id $PID ).SessionId;
+		} | Stop-Process -Force;
+	};
+);
+
+&amp; {
+	[float] $complete = 0;
+	[float] $increment = 100 / $scripts.Count;
+	foreach( $script in $scripts ) {
+		Write-Progress -Activity 'Running scripts to configure this user account. Do not close this window.' -PercentComplete $complete;
+		&amp; $script;
+		$complete += $increment;
+	}
+} *&gt;&amp;1 &gt;&gt; "$env:TEMP\UserOnce.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\DefaultUser.ps1" transformation="Text">
+$scripts = @(
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\ShowAllTrayIcons.ps1' -Raw | Invoke-Expression;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowTaskViewButton /t REG_DWORD /d 0 /f;
+	};
+	{
+		$names = @(
+		  'ContentDeliveryAllowed';
+		  'FeatureManagementEnabled';
+		  'OEMPreInstalledAppsEnabled';
+		  'PreInstalledAppsEnabled';
+		  'PreInstalledAppsEverEnabled';
+		  'SilentInstalledAppsEnabled';
+		  'SoftLandingEnabled';
+		  'SubscribedContentEnabled';
+		  'SubscribedContent-310093Enabled';
+		  'SubscribedContent-338387Enabled';
+		  'SubscribedContent-338388Enabled';
+		  'SubscribedContent-338389Enabled';
+		  'SubscribedContent-338393Enabled';
+		  'SubscribedContent-353698Enabled';
+		  'SystemPaneSuggestionsEnabled';
+		);
+		
+		foreach( $name in $names ) {
+		  reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v $name /t REG_DWORD /d 0 /f;
+		}
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarAl /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v "UnattendedSetup" /t REG_SZ /d "powershell.exe -NoProfile -Command \""Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\UserOnce.ps1' -Raw | Invoke-Expression;\""" /f;
+	};
+);
+
+&amp; {
+	[float] $complete = 0;
+	[float] $increment = 100 / $scripts.Count;
+	foreach( $script in $scripts ) {
+		Write-Progress -Activity 'Running scripts to modify the default user&#x2019;&#x2019;s registry hive. Do not close this window.' -PercentComplete $complete;
+		&amp; $script;
+		$complete += $increment;
+	}
+} *&gt;&amp;1 &gt;&gt; "C:\Windows\Setup\Scripts\DefaultUser.log";
+		</File>
+		<File path="C:\Windows\Setup\Scripts\FirstLogon.ps1" transformation="Text">
+$scripts = @(
+	{
+		Set-ItemProperty -LiteralPath 'Registry::HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' -Name 'AutoLogonCount' -Type 'DWord' -Force -Value 0;
+	};
+	{
+		Disable-ComputerRestore -Drive 'C:\';
+	};
+	{
+		cmd.exe /c "rmdir C:\Windows.old";
+	};
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\unattend-02.ps1' -Raw | Invoke-Expression;
+	};
+);
+
+&amp; {
+	[float] $complete = 0;
+	[float] $increment = 100 / $scripts.Count;
+	foreach( $script in $scripts ) {
+		Write-Progress -Activity 'Running scripts to finalize your Windows installation. Do not close this window.' -PercentComplete $complete;
+		&amp; $script;
+		$complete += $increment;
+	}
+} *&gt;&amp;1 &gt;&gt; "C:\Windows\Setup\Scripts\FirstLogon.log";
+		</File>
+	</Extensions>
+</unattend>
